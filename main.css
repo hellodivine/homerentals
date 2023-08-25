@@ -70,10 +70,6 @@ nav{
     justify-content: center;
 }
 .lp-text p{
-    position: absolute;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     margin:8rem 0rem 0rem ;
     color: #FFF;
     font-size: 3.25rem;
@@ -166,4 +162,15 @@ button{
     width: 8.5rem;
     height: 3.0rem;
     /* padding: 3.9rem ,4.9rem ,3.9rem ,4.9rem; */
+}
+.card-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-set-1 ,.card-set-2{
+    display: flex;
+}
+.card-icon-1 ,.card-icon-2 ,.card-icon-3{
+    justify-content:center;
+    background-color: aqua;
 }
