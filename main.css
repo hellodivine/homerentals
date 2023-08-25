@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: blue;
+    line-height: 1.4rem;
+}
+li{
+    margin-left: 4.63rem;
+    list-style: none;
+}
+ul{
+    margin-right:-14.13rem;
+    justify-content: center;
+}
+nav{
+    justify-content: center;
+    display: flex;
+    margin-top: 3.13rem;
+    margin-right: 30.5rem;
+}
+#image0_2_45{
+    width: 9.1875rem;
+    height: 3.125rem;
+    /* flex-shrink: 0; */
+}
+#navbar{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1rem;
+}
+.headline{
+    width: 75rem;
+    justify-content: center;
+    margin: auto;
+}
