@@ -4,36 +4,166 @@
     padding: 0px;
 }
 body{
-    background-color: blue;
+    /* background-color: blue; */
     line-height: 1.4rem;
 }
+
+/* landing page */
+
 li{
     margin-left: 4.63rem;
     list-style: none;
-}
-ul{
-    margin-right:-14.13rem;
-    justify-content: center;
+    color: #FFF;
 }
 nav{
-    justify-content: center;
+    max-width: 100%;
+    width: 70%;
+    margin: 0 auto;
     display: flex;
-    margin-top: 3.13rem;
-    margin-right: 30.5rem;
+    align-items: center;
+    padding: 3.13rem 5% 0 5%;
+    height: 15%;
 }
-#image0_2_45{
+#logo{
     width: 9.1875rem;
     height: 3.125rem;
-    /* flex-shrink: 0; */
+    margin-left: -6rem;
 }
 #navbar{
     display: flex;
+    margin-left: 4rem;
     text-decoration: none;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     padding: 1rem;
 }
 .headline{
-    width: 75rem;
+    width: 75%;
     justify-content: center;
     margin: auto;
+    margin-bottom: 1rem;
+}
+.landing-page{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+.landing-page::after{
+    content: " ";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: .5;
+    z-index: -1;
+}
+.lp-text{
+    position: relative;
+    margin-left: 7.5rem;
+    justify-content: center;
+}
+.lp-text p{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    margin:8rem 0rem 0rem ;
+    color: #FFF;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem; /* 134.615% */
+    letter-spacing: -0.0625rem;
+    text-transform: capitalize;
+
+    margin-right: 7.5rem;
+}
+
+/* end of landing page */
+
+/* second page */
+
+.second-page{
+    margin-top: 5.81rem;
+}
+.minimum-text ,.properties-head-text{
+    color: var(--text-gray-900, #18191F);
+    /* font-feature-settings: 'salt' on, 'liga' off; */
+    font-family: Inter;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4rem; /* 177.778% */
+    text-transform: capitalize;
+    margin-left: 2.91rem;
+}
+.second-line ,.third-line{
+    background-color: #F4511E;
+    border-style: none;
+    height: 7px;
+    width: 15%;
+}
+.second-page-mini-container{
+    display: flex;
+}
+.mini-container{
+    justify-content: space-between;
+    /* background-color: aqua; */
+    color: var(--text-gray-900, #18191F);
+    /* font-feature-settings: 'salt' on, 'liga' off; */
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 3.5rem;
+    line-height: 1.7rem; /* 134.615% */
+    text-transform: capitalize;
+}
+.mini-container-1 , .mini-container-2{
+    display: flex;
+    width: 100%;
+}
+.icon-1 ,.icon-2 ,.icon-3 ,.icon-4 ,.icon-5 ,.icon-6{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3) ;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    width: 50px;
+    height: 50px;
+}
+.iconholder-1 ,.iconholder-2 ,.iconholder-3 ,.iconholder-4 ,.iconholder-5 ,.iconholder-6{
+    margin: 4rem;
+
+}
+
+/* end of second page */
+
+/* properties page */
+
+.properties-page{
+    background-color: #F5F5F5;
+}
+.properties-head{
+    /* background-color: #F4511E; */
+    display: flex;
+    justify-content: space-between;
+}
+.third-line{
+    width: 25%;
+}
+button{
+    background-color: #F4511E;
+    color: #FFF;
+    border-style: none;
+    border-radius: 5px;
+    margin: 1rem 4rem 0 0;
+    width: 8.5rem;
+    height: 3.0rem;
+    /* padding: 3.9rem ,4.9rem ,3.9rem ,4.9rem; */
 }
